@@ -1,0 +1,20 @@
+@import 'sass/constants/constants.scss';
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    background: linear-gradient(180deg, rgba(222,89,124,1) 0%, rgba(235,117,138,1) 30%, rgba(255,255,255,0) 110%);
+    background-repeat: no-repeat;
+    height: 100%;
+}
+.pay-method-block{
+    height: 700px;
+    width: 400px;
+    margin: 100px 0px 0px 200px;
+    padding: 40px 0px 0px 30px;
+    background-color: $color-block;
+    border-radius: 20px;
+    box-shadow: 0px 0px 25px 5px rgba($color: $colors-shadow-block, $alpha: 0.7);
+}
